@@ -16,7 +16,7 @@
                     <input type="text" name="display" class="mostrador__estilo">
                 </div>
                 <div>
-                    <input type="button" value="AC">
+                    <input type="button" value="AC" onclick="display.value = '' ">
                     <input type="button" value="/" onclick="display.value = '/' ">
                     <input type="button" value="*" onclick="display.value = '*' ">
                     <input type="button" value="-" onclick="display.value = '-' ">
@@ -41,7 +41,6 @@
                 </div>
                 <div>
                     <input type="button" value="0" onclick="display.value += '0' ">
-                    <input type="button" value="DEL" onclick="display.value += '0' ">
                     <input type="button" value="=" class="alongamento">
                 </div>
             </form>
