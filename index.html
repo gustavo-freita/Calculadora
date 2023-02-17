@@ -9,48 +9,89 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <div class="container">
-        <div class="calculadora">
-            <form>
-                <div class="mostrador">
-                    <input type="text" name="display" class="mostrador__estilo">
+        <div class="container">
+
+            <div class="calculadora">
+                <div class="display">
+                    <div class="conta">
+                        <div class="input"></div>
+                        <div class="output"></div>
+                    </div>
                 </div>
-                <div>
-                    <input type="button" value="AC" class= "ad__estilo" onclick="display.value = '' ">
-                    <input type="button" value="DEL" class= "ad__estilo" onclick="display.value = display.value.toString().slice(0,-1)">
-                    <input type="button" value="/" class= "bot__estilo" onclick="display.value += '/' ">
-                    <input type="button" value="*" class= "bot__estilo" onclick="display.value += '*' ">
+            </div>
+
+            <div class="operadores">
+                
+                <div data-key="limpar" class="ope ativador">
+                    <span>AC</span>
                 </div>
-                <div>
-                    <input type="button" value="7" onclick="display.value += '7' ">
-                    <input type="button" value="8" onclick="display.value += '8' ">
-                    <input type="button" value="9" onclick="display.value += '9' ">
-                    <input type="button" value="%" class= "bot__estilo" onclick="display.value += '%' ">
+                
+                <div data-key="parenteses" class="ope ativador">
+                    <span>( )</span>
                 </div>
-                <div>
-                    <input type="button" value="4" class="4" onclick="display.value += '4' ">
-                    <input type="button" value="5" onclick="display.value += '5' ">
-                    <input type="button" value="6" onclick="display.value += '6' ">
-                    <input type="button" value="+" class= "bot__estilo" onclick="display.value += '+' ">
+
+                <div data-key="%" class="ope ativador">
+                    <span>%</span>
                 </div>
-                <div>
-                    <input type="button" value="1" onclick="display.value += '1' ">
-                    <input type="button" value="2" onclick="display.value += '2' ">
-                    <input type="button" value="3" onclick="display.value += '3' ">
-                    <input type="button" value="-" class= "bot__estilo" onclick="display.value += '-' ">
+                <div data-key="/" class="ope ativador">
+                    <span>/</span>
                 </div>
-                <div>
-                    <input type="button" value="("  class= "bot__estilo" onclick="display.value += '(' ">
-                    <input type="button" value="0" onclick="display.value += '0' ">
-                    <input type="button" value=")" class= "bot__estilo" onclick="display.value += ')' ">
-                    <input type="button" value="," class= "bot__estilo" onclick="display.value += ',' ">
+
+                <div data-key="7" class="ope">
+                    <span>7</span>
                 </div>
-                <div>
-                    <input type="button" value="=" onclick="display.value = eval (display.value)" class="alongamento">
+                <div data-key="8" class="ope">
+                    <span>8</span>
                 </div>
-            </form>
+                <div data-key="9" class="ope">
+                    <span>9</span>
+                </div>
+                <div data-key="*" class="ope ativador">
+                    <span>X</span>
+                </div>
+
+                <div data-key="4" class="ope">
+                    <span>4</span>
+                </div>
+                <div data-key="5" class="ope">
+                    <span>5</span>
+                </div>
+                <div data-key="6" class="ope">
+                    <span>6</span>
+                </div>
+                <div data-key="-" class="ope ativador">
+                    <span>-</span>
+                </div>
+
+                <div data-key="1" class="ope">
+                    <span>1</span>
+                </div>
+                <div data-key="2" class="ope">
+                    <span>2</span>
+                </div>
+                <div data-key="3" class="ope">
+                    <span>3</span>
+                </div>
+                <div data-key="+" class="ope ativador">
+                    <span>+</span>
+                </div>
+
+                <div data-key="del" class="ope ativador">
+                    <span>&lt;</span>
+                </div>
+                <div data-key="0" class="ope">
+                    <span>0</span>
+                </div>
+                <div data-key="." class="ope">
+                    <span>.</span>
+                </div>
+                <div data-key="=" class="ope ativador">
+                    <span>=</span>
+                </div>
+                
+            </div>
+
         </div>
-    </div>
 
     <script src="./assets/JS/calc.js"></script>
 </body>
