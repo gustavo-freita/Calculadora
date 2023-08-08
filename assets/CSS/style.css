@@ -78,7 +78,7 @@ html {
     height: 0;
     padding-top: 100%;
     background-color: #262933;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, 0.1), inset 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 180px;
     transition: 0.4s;
     user-select: none;
@@ -95,7 +95,6 @@ html {
 }
 
 .keys .key:hover {
-    border-radius: 1rem;
     box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2), -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 .key.acao span {
