@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://gustavo-freita.github.io/Calculadora/">Login Page</a></h1>
+<h1 align="center"><a href="https://gustavo-freita.github.io/Calculadora/">Calculadora</a></h1>
 
 ## Descrição do Projeto:
 <p>Esse projeto foi criado para testar ainda mias meu estudos usando <a href="https://www.w3schools.com/html/">HTML</a>, <a href="https://www.w3schools.com/Css/">CSS</a> e <a href="https://developer.mozilla.org/en-US/docs/web/javascript/guide/introduction">JavaScript</a>. E juntamente testar minha lógica de programação usando <a href="https://developer.mozilla.org/en-US/docs/web/javascript/guide/introduction">JavaScript</a>.</p>
